@@ -1,6 +1,6 @@
 package br.utfpr.edu.br.service;
 
-import br.utfpr.edu.br.bean.Quarto;
+import br.com.ligueTelecom.Bean.Quarto;
 import br.utfpr.edu.br.conexao.Dao;
 import java.io.IOException;
 import java.util.ArrayList;

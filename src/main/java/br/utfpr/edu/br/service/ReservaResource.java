@@ -5,9 +5,9 @@
  */
 package br.utfpr.edu.br.service;
 
-import br.utfpr.edu.br.bean.Cliente;
-import br.utfpr.edu.br.bean.Quarto;
-import br.utfpr.edu.br.bean.Reserva;
+import br.com.ligueTelecom.Bean.Cliente;
+import br.com.ligueTelecom.Bean.Quarto;
+import br.com.ligueTelecom.Bean.Reserva;
 import br.utfpr.edu.br.conexao.Dao;
 import java.io.IOException;
 import java.util.ArrayList;

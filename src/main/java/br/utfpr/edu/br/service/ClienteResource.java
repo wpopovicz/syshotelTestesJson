@@ -5,7 +5,7 @@
  */
 package br.utfpr.edu.br.service;
 
-import br.utfpr.edu.br.bean.Cliente;
+import br.com.ligueTelecom.Bean.Cliente;
 import br.utfpr.edu.br.conexao.Dao;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -40,7 +40,7 @@ public class ClienteResource {
         //return new Cliente(1, "wil", "robinho", "carlos", "carloko");
     }
 
-    @Path("/id{id}")
+    @Path("/id")
     @GET
     @Produces(MediaType.TEXT_HTML)
     @Consumes(MediaType.APPLICATION_JSON)

@@ -7,9 +7,9 @@ import javax.persistence.metamodel.StaticMetamodel;
 public abstract class Cliente_ {
 
 	public static volatile SingularAttribute<Cliente, String> rg;
+	public static volatile SingularAttribute<Cliente, String> name;
 	public static volatile SingularAttribute<Cliente, String> cpf;
-	public static volatile SingularAttribute<Cliente, String> nome;
-	public static volatile SingularAttribute<Cliente, Long> id;
+	public static volatile SingularAttribute<Cliente, Integer> id;
 	public static volatile SingularAttribute<Cliente, String> email;
 
 }

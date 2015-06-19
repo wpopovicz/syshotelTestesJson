@@ -5,7 +5,7 @@
  */
 package br.utfpr.edu.br.conexao;
 
-import br.utfpr.edu.br.bean.Cliente;
+import br.com.ligueTelecom.Bean.Cliente;
 import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.EntityManager;
